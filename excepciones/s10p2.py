@@ -20,6 +20,7 @@ while(i<5):
         else:
             temperaturasL.añadir(newTemp)
             print("añado la temperatura")
+            print("hola")
 
     except misExcep.TempeInvalid:
         print("ha ocurrido la excepcion de temperatura invalida")
